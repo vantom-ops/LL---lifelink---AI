@@ -1,0 +1,17 @@
+{
+  "name": "LL LifeLink",
+  "short_name": "LifeLink",
+  "description": "Connected Senior Medication Management & Disability CareChain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF7ED",
+  "theme_color": "#FF7A00",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

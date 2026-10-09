@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files with sensitive credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js Build Outputs
+.next/
+web/.next/
+out/
+web/out/
+
+# TypeScript / Backend Build Outputs
+backend/dist/
+dist/
+
+# Flutter / Mobile Build Artifacts
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+
+# Uploads and temporary scratch
+backend/uploads/*
+!backend/uploads/.gitkeep
+scratch/
+.tempmediaStorage/
+*.log
+backend/test-*.js
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

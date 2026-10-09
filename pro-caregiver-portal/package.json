@@ -1,0 +1,13 @@
+{
+  "name": "ll-procare-portal",
+  "version": "1.0.0",
+  "description": "LL ProCare - Dedicated Professional Caretaker and Nurse Dispatch Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
